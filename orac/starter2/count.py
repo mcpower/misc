@@ -1,0 +1,1 @@
+open("countout.txt","w").write("\n".join(map(str,range(1,int(open("countin.txt").read())+1))))
