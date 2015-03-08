@@ -1,0 +1,1 @@
+print sum(map(str.__ne__, *open("rosalind_hamm.txt").read().split()))
